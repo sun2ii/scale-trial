@@ -1,11 +1,11 @@
 import streamlit as st
 import requests
 import json
-from dotenv import load_dotenv
+# from dotenv import load_dotenv
 import os
 
 # Load environment variables from .env file
-load_dotenv()
+# load_dotenv()
 
 # Retrieve the API key from environment variables
 # api_key = os.getenv('API_KEY')
