@@ -9,7 +9,6 @@ load_dotenv()
 
 # Retrieve the API key from environment variables
 api_key = os.getenv('API_KEY')
-print(api_key);
 
 # Knowledge base dictionary
 knowledge_base = {
