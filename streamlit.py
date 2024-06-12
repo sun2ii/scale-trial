@@ -10,6 +10,7 @@ load_dotenv()
 # Retrieve the API key from environment variables
 # api_key = os.getenv('API_KEY')
 api_key = st.secrets["SCALE_API_KEY"]
+print(api_key);
 
 # Knowledge base dictionary
 knowledge_base = {
