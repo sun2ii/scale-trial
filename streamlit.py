@@ -59,7 +59,7 @@ def get_chat_completion(content, query):
                 yield json.loads(line.decode('utf-8').replace("data: ", ""))
 
 # Streamlit app
-st.title("Knowledge Base Query Chat App")
+st.title("Scale Assessment (Banking, Insurance, Education)")
 
 if 'history' not in st.session_state:
     st.session_state.history = []
