@@ -1,6 +1,9 @@
 # Scale GP API Tech Assessment
 This project is a demonstration of using the Scale GP APIs to create a web application that answers user-submitted questions based on context documents stored in different knowledge bases. The application leverages advanced Retrieval Augmented Generation (RAG) techniques to provide accurate and relevant answers.
 
+## Main App Screenshot
+![Main App](./diagrams/main-app.png)
+
 ![Workflow Diagram](./diagrams/workflow.png)
 
 ## Features
