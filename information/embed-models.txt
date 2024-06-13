@@ -1,0 +1,41 @@
+Heavy
+------------------------------------------------
+1. openai/text-embedding-3-large
+	•	What it does: A larger version of OpenAI’s text embedding models, designed to capture more details in the text.
+	•	Why it’s cool: It provides more detailed embeddings, which can be useful for more complex text understanding tasks.
+
+2. sentence-transformers/multi-qa-distilbert-cos-v1
+	•	What it does: This model is designed for answering questions. It takes a question and possible answers, and helps find the best matching answer.
+	•	Why it’s cool: It’s designed to understand and match questions and answers quickly and accurately.
+
+3. openai/text-embedding-ada-002
+	•	What it does: This model by OpenAI creates very powerful embeddings for text, capturing the meaning of sentences well.
+	•	Why it’s cool: It’s known for being really accurate and is used for tasks like search and clustering text.
+
+Light
+------------------------------------------------
+1. sentence-transformers/all-MiniLM-L12-v2
+  • What it does: This model takes a sentence and turns it into a list of numbers (called an embedding) that represents the meaning of the sentence.
+	•	Why it’s cool: It’s really fast and good for many languages, making it useful for comparing the meanings of sentences.
+
+2. embed-english-light-v3.0
+	•	What it does: A lighter version of the English embedding model, designed to be faster and use less memory.
+	•	Why it’s cool: It’s great for applications that need to process English text quickly without using a lot of resources.
+
+3 . embed-english-v3.0
+	•	What it does: This model is specifically designed to create embeddings for English text.
+	•	Why it’s cool: It’s optimized for English, making it very accurate for tasks involving English text.
+
+4 . openai/text-embedding-3-small
+	•	What it does: A smaller, faster version of OpenAI’s text embedding models, designed for creating embeddings quickly.
+	•	Why it’s cool: It’s faster and uses less memory, making it useful for applications where speed is crucial.
+
+Multi-lingual 
+------------------------------------------------
+1. embed-multilingual-v3.0
+	•	What it does: This model creates embeddings for text in many different languages.
+	•	Why it’s cool: It’s useful for multilingual tasks where you need to handle text in several languages.
+
+2. sentence-transformers/paraphrase-multilingual-mpnet-base-v2
+	•	What it does: This model takes sentences in different languages and creates embeddings that can be compared to see if they mean the same thing.
+	•	Why it’s cool: It works well with multiple languages, making it great for finding paraphrases across different languages.
