@@ -16,6 +16,7 @@ knowledge_base = {
     'JPMorgan': '32cabd39-c257-493e-ab12-517905d4a800',
     'Farmers': 'f682abae-a359-4025-884a-b5e19529e76f',
     'Chegg': '1f8e6b89-5133-4fba-bfb1-fbb2e6213e0d',
+    'Financial Education': '2db7c2c4-02c2-4163-86d1-c102932d1dcd'
 }
 
 # Function to query the knowledge base
@@ -28,7 +29,7 @@ def query_knowledge_base(query, knowledge_base_id):
     }
     data = {
         "include_embeddings": False,
-        "verbose": False,
+        "verbose": True,
         "query": query,
         "top_k": 3
     }
@@ -93,6 +94,8 @@ if submit_button and query:
     kb_response = query_knowledge_base(query, knowledge_base_id)
     chunks = kb_response['chunks']
     content = ' '.join(chunk['text'] for chunk in chunks)
+
+    print('\n---- content ----\n', content)
 
     # Stream chat completion
     st.markdown("**Assistant:** Getting chat completion...")
