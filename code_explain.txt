@@ -1,0 +1,18 @@
+Explanation of the Code Base
+	1.	Imports and Setup:
+    •	Import necessary libraries.
+    •	Load environment variables from a .env file to get the API key.
+	2.	Knowledge Base Dictionary:
+    •	A dictionary to store the IDs for different knowledge bases like JPMorgan, Farmers, and Chegg.
+	3.	Query Function:
+    •	query_knowledge_base: Sends a query to the selected knowledge base and retrieves relevant documents.
+	4.	Chat Completion Function:
+    •	get_chat_completion: Sends the retrieved document content to the chat completion API, which processes it and streams the response back.
+	5.	Streamlit App:
+    •	Title: Sets the title of the Streamlit app.
+    •	History Initialization: Initializes chat history in the session state.
+    •	Display Chat History: Displays the chat history to the user.
+    •	User Input Form: Allows the user to input their query and select a knowledge base. On form submission:
+    •	Query Knowledge Base: Queries the selected knowledge base.
+    •	Stream Chat Completion: Streams the chat response and displays it in real-time.
+    •	Update History: Adds the user query and assistant response to the chat history.
